@@ -4,7 +4,8 @@
   "description": "JS Selenium & Cucumber usage.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/selenium-cucumber-js/index.js"
+    "test": "node ./node_modules/selenium-cucumber-js/index.js",
+    "lint": "npx gherkin-lint && npx standard"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,11 @@
   },
   "homepage": "https://github.com/RickChihu/js-selenium-cucumber-boilerplate#readme",
   "devDependencies": {
-    "selenium-cucumber-js": "^1.7.0"
+    "gherkin-lint": "^3.3.6",
+    "selenium-cucumber-js": "^1.7.0",
+    "standard": "^14.3.1"
+  },
+  "standard": {
+    "globals": [ "page", "driver", "by", "selenium", "expect", "helpers", "until" ]
   }
 }
