@@ -1,0 +1,28 @@
+{
+  "name": "js-selenium-cucumber",
+  "version": "1.0.0",
+  "description": "JS Selenium & Cucumber usage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickChihu/js-selenium-cucumber-boilerplate.git"
+  },
+  "keywords": [
+    "js",
+    "selenium",
+    "cucumber",
+    "boilerplate"
+  ],
+  "author": "Rick Chihu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RickChihu/js-selenium-cucumber-boilerplate/issues"
+  },
+  "homepage": "https://github.com/RickChihu/js-selenium-cucumber-boilerplate#readme",
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.7.0"
+  }
+}
